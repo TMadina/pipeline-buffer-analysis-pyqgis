@@ -1,4 +1,8 @@
-
+"""
+Pipeline Buffer Analysis Script
+Author: Madina
+Description: Creating 1000m buffer around pipelines and analyzing nearby wells using PyQGIS
+"""
 pipeline_layer = QgsProject.instance().mapLayersByName('pipeline_layer')[0]
 wells_layer = QgsProject.instance().mapLayersByName('wells_layer')[0]
 
